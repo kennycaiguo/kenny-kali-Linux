@@ -7,3 +7,4 @@ learn kali Linux，这是一个可以学习网络安全的Linux版本
 # <a href="https://gitee.com/wizardforcel/lpad-zh">Android 渗透测试学习手册 中文版</a>
 # <a href="https://github.com/CHYbeta/Web-Security-Learning">网络安全学习</a>
 # <a href="https://github.com/Al1ex/Red-Team">Red Team攻击指南</a>
+# <a href="https://github.com/demonsec666/Security-Toolkit">Security-Toolkit</a>
