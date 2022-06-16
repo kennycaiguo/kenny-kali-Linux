@@ -1,0 +1,17 @@
+1.gedit /etc/network/interfaces
+修改内容如下：
+auto lo
+iface lo inet loopback
+auto eth0
+iface eth0 inet static
+address 192.168.100.20
+netmask 255.255.255.0
+gateway 192,168.100.1
+
+2.gedit /etc/resolv.conf
+添加如下内容，需要注释掉原来的nameserver IP
+nameserver 8.8.8.8
+
+3./etc/init.d/networking restart
+
+4.测试：ping www.qq.com,如果能ping通说明配置正确
